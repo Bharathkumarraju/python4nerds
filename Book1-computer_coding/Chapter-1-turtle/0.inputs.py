@@ -52,3 +52,11 @@ def greet(abc:str='hanuman'):
 
 greet('raju')
 greet()
+
+print('greetigs' + 'raju')
+spaces()
+name = 'hanuman'
+print(name[0])
+
+spaces()
+print(len(name))

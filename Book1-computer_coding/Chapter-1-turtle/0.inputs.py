@@ -51,3 +51,4 @@ def greet(abc:str='hanuman'):
     print("Hello " + abc)
 
 greet('raju')
+greet()

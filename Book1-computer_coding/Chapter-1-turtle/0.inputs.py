@@ -37,3 +37,17 @@ while roll != 6:
     print(" Roll is not equal to 6, the roll value is ", roll)
     roll += 1
 
+
+
+from time import sleep
+print("I am going to sleep for 2 seconds")
+sleep(2)
+
+print("I am awaken now and I am chanting hanuman chalisa now!!!")
+
+# How to greet using finctions
+
+def greet(abc:str='hanuman'):
+    print("Hello " + abc)
+
+greet('raju')

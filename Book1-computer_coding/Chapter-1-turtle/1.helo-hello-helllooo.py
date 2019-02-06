@@ -8,6 +8,7 @@ def spaces_for_life():
 
 spaces_for_life()
 feel_brave = True
+score = 0
 while feel_brave:
     ghost_door = randint(1,5)
     door = input('1, 2, 3, 4, 5 ...........?')
@@ -18,4 +19,6 @@ while feel_brave:
         feel_brave = False
     else:
         print('Enter next room')
+        score = score + 1
 print("Run Away!!!")
+print("Your score is ", score)

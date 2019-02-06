@@ -29,3 +29,11 @@ elif word == 'elephant':
     print("you are from india")
 else:
     print("I don't know from which fucking country you are!!!")
+
+spaces()
+roll = 0
+
+while roll != 6:
+    print(" Roll is not equal to 6, the roll value is ", roll)
+    roll += 1
+

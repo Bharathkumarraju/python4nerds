@@ -26,6 +26,11 @@ The example output as below
 division by zero
 <traceback object at 0x102da85c8>
 
+turkey airport
+
+User Code: 595215
+Password: 052274
+
 '''
 
 try:
@@ -34,3 +39,15 @@ except:
     err1 = sys.exc_info()
     for i in err1:
         print(i)
+
+print()
+print("----------------------MATH CALCULATIONS---------------------")
+
+print("the value is", 2*3*9+29999/10000)
+print("is it true that 3 + 2 < 5 - 7 ?")
+print(3 + 2 < 5 - 7)
+
+print("What is 3 + 2 is", 3 + 2)
+print("What is 5 - 7 is", 5 - 7)
+print(" Oh That's why it is False")
+

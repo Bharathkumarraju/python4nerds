@@ -26,7 +26,7 @@ The example output as below
 division by zero
 <traceback object at 0x102da85c8>
 
-turkey airport
+turkey-isthambul airport
 
 User Code: 595215
 Password: 052274
@@ -51,3 +51,12 @@ print("What is 3 + 2 is", 3 + 2)
 print("What is 5 - 7 is", 5 - 7)
 print(" Oh That's why it is False")
 
+print("\n"*5)
+
+print("How about some more")
+print("")
+print("is it greater? ", 2 > 18)
+print("is it greater?", 5 > -2)
+print("is it greater or equal?", 5 >= -890000)
+print("is greater or equal?", 5 >= 19199119)
+print("is it greater or equal", -5 >= -5)

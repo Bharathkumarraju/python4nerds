@@ -11,6 +11,7 @@ while feeling_brave:
     print(" There are Five doors ahead! ")
     print(" There is a GHOST in one of the door! ")
     ghost_door = input(" Please selects the door 1, 2, 3, 4, or 5?")
+    print(type(ghost_door))
     ghost_door_num = int(ghost_door)
     door = random.randint(1, 5)
     if ghost_door_num == door:

@@ -28,3 +28,8 @@ if 'Rice123' in menu:
 else:
     print("You are from Punjab!!!")
 
+a = 109.345
+b = 638.08743
+
+print( a + b )
+print( a - b )

@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #
-# (c) 2018, Montassar Ajam <montassar.ajam@gmail.com>
+# (c) 2018, Bharath <bhrth.dsra1@gmail.com>
 # This module is part of the automation setup project of new OSX machines
 # done on the top of the following Gist:
 #

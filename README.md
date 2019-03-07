@@ -1,2 +1,7 @@
 # python4nerds
-learn python for life
+
+```
+Learn python like a nerd, learn python for life
+```
+
+![python_graphics](python_turtle_graphics.png?raw=true)

@@ -34,6 +34,7 @@ print("")
 # Data types sometimes have to be converted, otherwise an error message will appear.
 
 apple = input('Enter number of apples')
+apples = input('Enter number of appless')
 print("")
 print(type(apple))
 try:
@@ -42,3 +43,12 @@ except Exception as err:
     print(err)
 # In order to fix above first convert apple to int as below
 print(int(apple) + 18)
+
+print("Apples in float")
+print(float(apples) + 1.056789 )
+ants = 22
+spiders = 18
+
+bugs = ants + spiders
+print("the no.of bugs are ", bugs)
+

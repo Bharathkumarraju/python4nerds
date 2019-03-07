@@ -52,3 +52,7 @@ spiders = 18
 bugs = ants + spiders
 print("the no.of bugs are ", bugs)
 
+
+from random import randint
+random_number = randint(1, 18)
+print("The random number between 1 and 18 is the", random_number)
